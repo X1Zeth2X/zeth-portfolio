@@ -7,6 +7,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
 		<title>Welcome to Astro</title>
+		<link rel="stylesheet" href={Astro.resolve('../styles/global.css')}>
+
 		<style>
 			/* scoped CSS styles go here: */
 			/* h1 { ... } */
@@ -15,5 +17,6 @@
 
 	<body>
 		<h1>Welcome to <a href="https://astro.build/">Astro</a></h1>
+		<p class="text-9xl">Tailwind Test</p>
 	</body>
 </html>
